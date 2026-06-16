@@ -21,7 +21,7 @@ $result = mysqli_query(
 
 if($result){
 
-    echo "Student Added";
+    echo "<br>Student Added";
 }else{
 
     echo "Error";
@@ -35,8 +35,11 @@ if($result){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-  <a href="index.php"><button>Go Back</button></a>  
+    <div class="container mt-4">
+  <a href="index.php"><button class="btn btn-primary"> Go Back </button></a> 
+</div> 
 </body>
 </html>
