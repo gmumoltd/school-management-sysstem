@@ -29,7 +29,7 @@ if (!isset($_SESSION['username'])) {
         <h3 class="my-4">
             Welcome, <span class="text-dark"><?php echo htmlspecialchars($_SESSION['username']); ?></span>!
         </h3>
-
+           <h3> <a href="viewusers.php" class="btn btn-success">View</a></h3>
         <div class="mt-3">
             <a href="logout.php" class="btn btn-danger">Logout</a>
         </div>
