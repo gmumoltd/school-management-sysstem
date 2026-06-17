@@ -37,7 +37,7 @@ $result = mysqli_query($conn, $sql);
                     <td><?php echo $row['ID']; ?></td>
                     <td><?php echo $row['NAME']; ?></td>
                     <td><?php echo $row['EMAIL']; ?></td>
-                    <td><?php echo $row['Course']; ?></td>
+                    <td><?php echo $row['COURSE']; ?></td>
                     <td>
                         <a href="edit.php?id=<?php echo $row['ID']; ?>" class="btn btn-warning btn-sm">Edit</a>
                         <a href="delete.php?id=<?php echo $row['ID']; ?>" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this student?');">Delete</a>

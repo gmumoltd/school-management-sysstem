@@ -103,17 +103,17 @@ if (isset($_POST['update'])) {
         <form method="POST">
             <div class="mb-3">
                 <label class="form-label">Full Name</label>
-                <input type="text" name="name" value="<?php echo htmlspecialchars($row['name']); ?>" class="form-control" required>
+                <input type="text" name="name" value="<?php echo htmlspecialchars($row['NAME']); ?>" class="form-control" required>
             </div>
 
             <div class="mb-3">
                 <label class="form-label">Email Address</label>
-                <input type="email" name="email" value="<?php echo htmlspecialchars($row['email']); ?>" class="form-control" required>
+                <input type="email" name="email" value="<?php echo htmlspecialchars($row['EMAIL']); ?>" class="form-control" required>
             </div>
 
             <div class="mb-3">
                 <label class="form-label">Course Name</label>
-                <input type="text" name="course" value="<?php echo htmlspecialchars($row['course']); ?>" class="form-control" required>
+                <input type="text" name="course" value="<?php echo htmlspecialchars($row['COURSE']); ?>" class="form-control" required>
             </div>
 
             <div class="d-flex justify-content-between align-items-center mt-4">

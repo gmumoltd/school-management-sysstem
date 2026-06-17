@@ -35,7 +35,7 @@ $result = mysqli_query($conn, $sql);
             ?>
                 <tr>
                     <td><?php echo $row['ID']; ?></td>
-                    <td><?php echo $row['username']; ?></td>
+                    <td><?php echo $row['USERNAME']; ?></td>
                     <td><?php echo $row['EMAIL']; ?></td>
                     <!-- <td><?php echo $row['password']; ?></td> -->
                     <td>
